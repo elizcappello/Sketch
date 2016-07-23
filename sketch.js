@@ -1,12 +1,12 @@
 function setup() {
   createCanvas(560, 340)
-  background (225,235,235)
+  
 }
 
 function draw() {
-  
+  background (225,235,235)
   strokeWeight(4)
-  line (270,210,270,330)
+  line (270,220,270,330)
   strokeWeight(4)
   line (270,20,270,120)
   strokeWeight(4)
@@ -14,7 +14,7 @@ function draw() {
   strokeWeight(4)
   line (320,170,450,170)
   
-  fill (0,51,51)
+  fill (0,51,51,25)
   stroke (0,51,51)
   strokeWeight (1)
   ellipse (270, 170, 100, 100)
